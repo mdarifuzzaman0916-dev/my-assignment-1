@@ -65,6 +65,7 @@ header{
     height: 35px;
     border-radius: 1000px;
     margin: 0 auto;
+    cursor: pointer;
 }
 .banner-child h1{
     margin-top: 16px;
@@ -116,7 +117,56 @@ header{
 }
 .banner-child .btn:hover{
     background: orangered;
-   
+}
+.note-section{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.head-section h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    margin-top: 30px;
+    word-spacing: 5px;
+}
+.head-section .head-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    margin-top: 16px;
+}
+.card-parent{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+.card-child {
+    text-align: center;
+    padding: 24px 24px;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 #ece0e0;
+    border-radius: 8px;
+}
+.card-child img{
+    background: #F95555;
+    color: #FFFFFF;
+    border: 15px solid #F95555;
+    border-radius: 50%;
+}
+.card-child h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-top: 16px;
+}
+.card-child .card-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
 }
     
 
