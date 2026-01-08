@@ -41,4 +41,83 @@ header{
     border: none;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
+.btn:hover{
+    background: orangered;
+}
+.banner-section{
+    background-image: url(./assets/hero-bg.png);
+}
+.banner-parent{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 179px;
+}
+.banner-child .first-p{
+    background-color: #FFFFFF;
+    color: #30B868;
+    padding: 8px 12px;
+    width: 229px;
+    height: 35px;
+    border-radius: 1000px;
+    margin: 0 auto;
+}
+.banner-child h1{
+    margin-top: 16px;
+}
+.banner-child h1 .first{
+   color: #FFFFFF;
+   font-size: 40px;
+   word-spacing: 10px;
+   
+}
+.banner-child h1 .last{
+   color: #30B868;
+   font-size: 40px;
+}
+.banner-child .last-p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.banner-child .btn{
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.banner-child img{
+    vertical-align: middle;
+    
+}
+.banner-child .btn2{
+    padding: 12px 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.banner-child .btn2:hover{
+   background: #FFFFFF;
+   color: #000000;
+}
+.banner-child .btn:hover{
+    background: orangered;
+   
+}
+    
+
+
