@@ -74,7 +74,6 @@ header{
    color: #FFFFFF;
    font-size: 40px;
    word-spacing: 10px;
-   
 }
 .banner-child h1 .last{
    color: #30B868;
@@ -98,7 +97,7 @@ header{
 }
 .banner-child img{
     vertical-align: middle;
-    
+    margin-left: 5px;
 }
 .banner-child .btn2{
     padding: 12px 16px;
@@ -157,7 +156,7 @@ header{
     border-radius: 50%;
 }
 .card-child h4{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     color: #001931;
     margin-top: 16px;
@@ -180,13 +179,13 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-    margin-bottom: 120px;
     }
 .child-div img{
      width: 450px;
      height: 450px;
      margin-top: 120px;
      margin-bottom: 120px;
+     
 }
 .child-div h5{
     font-size: 16px;
@@ -214,5 +213,80 @@ header{
       color:  #30B868;
       margin-bottom: 16px;
 }
-
-
+.early-patent{
+width: 75%;
+max-width: 1140px;
+margin: 0 auto;
+text-align: center;
+padding: 80px 40px;
+background-color: #f0ebeb;
+border-radius: 12px;
+margin-bottom: 120px;
+}
+.early-child h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #001931;
+}
+.early-child .first-early-p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
+.early-child .btn{
+    margin-top: 24px;
+}
+.early-child img{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.early-child .last-early-p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.main-footer{
+    background-color: #001931;
+}
+.parent{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 120px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.child a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+color: #FFFFFF;
+margin-right: 107px;
+}
+.child i{
+    color: #FFFFFF;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+.hr-parent{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+}
+.hr-parent hr{
+    color:#E5E7EB;
+    height: 1px;
+}
+.hr-parent p{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FAFAFA;
+}
