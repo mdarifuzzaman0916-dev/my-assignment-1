@@ -44,7 +44,7 @@ header{
     cursor: pointer;
 }
 .btn:hover{
-    background: orangered;
+    background: #F95555;
 }
 .banner-section{
     background-image: url(./assets/hero-bg.png);
@@ -116,7 +116,7 @@ header{
    color: #000000;
 }
 .banner-child .btn:hover{
-    background: orangered;
+    background: #F95555;
 }
 .note-section{
     width: 75%;
